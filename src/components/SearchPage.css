@@ -1,0 +1,51 @@
+/* src/components/SearchPage.css */
+.container {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .search-bar {
+    width: 50%;
+    margin: 0 auto 20px auto;
+    text-align: center;
+  }
+  
+  .gradient-button {
+    background: linear-gradient(45deg, #a5701c 0%, #9ca3b0 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+    border-radius: 4px;
+  }
+  
+  .gradient-button:hover {
+    background: linear-gradient(45deg, #3a4f71 0%, #22c19e83 100%);
+  }
+  
+  .gradient-button:focus {
+    outline: none;
+  }
+  
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
